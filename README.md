@@ -1,4 +1,4 @@
-# 2026FintechSMC
+# ProjectTemplate2026-v2
 
 > **⚠️ MEMO (2026.05.15)**: CC Switch is currently **not working**. Do not use it.
 > This project runs exclusively via the **`free-claude-code` local proxy** with API keys configured in `.env`.
