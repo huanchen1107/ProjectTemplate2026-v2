@@ -16,6 +16,22 @@
 
 `startup.sh` → reads `project_initial.md` → launches `cc.sh` → interactive menu.
 
+## 🧭 AI Agent Rules
+
+This template now includes the Karpathy-inspired agent rules used by the other
+project:
+
+```text
+CLAUDE.md
+.cursor/rules/karpathy-guidelines.mdc
+.agents/skills/karpathy-guidelines/SKILL.md
+```
+
+They keep AI coding agents focused on clear assumptions, simple changes,
+surgical diffs, and explicit verification. When creating a new project from
+this template, keep those files in the new repository root and restart Codex,
+Claude Code, or Cursor so the rules load.
+
 ## 📜 Shell Scripts Reference
 
 | Script | Purpose |
@@ -52,4 +68,3 @@
    - `npx` / Node.js — for Claude Code CLI
    - `free-claude-code` proxy at `~/free-claude-code/`
    - OpenRouter API key in `.env`
-
